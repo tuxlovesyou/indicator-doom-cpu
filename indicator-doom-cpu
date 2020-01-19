@@ -113,7 +113,7 @@ class AbstractDOOMCPUIndicator(object):
         self.menu_item = Gtk.MenuItem()
         self.menu.append(self.menu_item)
 
-        self.cpu_load_menu_item = Gtk.MenuItem('CPU: 0%')
+        self.cpu_load_menu_item = Gtk.MenuItem(label='CPU: 0%')
         self.cpu_load_menu_item.set_sensitive(False)
         self.menu.append(self.cpu_load_menu_item)
 
